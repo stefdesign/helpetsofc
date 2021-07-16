@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.contenedor {
+	margin-left: 800px;
+}
+
+.contenedor article .btn-abrir-popup{
+	padding: 0 20px;
+	margin-bottom: 20px;
+	background: #f6a01f;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+	
+	 
+}
+
+.texto1{
+    color: #815112;
+    font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 100;
+}
+
+.texto2 {
+    color: #815112;
+    font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 100;
+}
+/* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+.overlay {
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay .active {
+    visibility: visible;
+}
+
+.popup {
+
+    background: #fabc5f;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Rubik', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+}
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #FFFFFF;
+}
+
+.popup .btn-cerrar-popup:hover {
+    color: #ffffff7a;
+}
+
+div.contenedor-inputs input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+input.btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #815112;
+	border-radius: 3px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+input.btn-submit:hover {
+	background: #81511273;
+}
+
